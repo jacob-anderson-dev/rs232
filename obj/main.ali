@@ -1,0 +1,140 @@
+V "GNAT Lib v24.1"
+M P W=b
+A -gnatA
+A -gnat95
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		cb53e98e NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20240108011321 76789da1 ada%s
+D a-comlin.ads		20240108011321 4aa66568 ada.command_line%s
+D a-except.ads		20240108011321 e7970cd9 ada.exceptions%s
+D a-inteio.ads		20240108011321 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20240108011321 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20240108011321 84bea7a3 ada.numerics%s
+D a-nuflra.ads		20240108011321 4056ab7a ada.numerics.float_random%s
+D a-stream.ads		20240108011321 119b8fb3 ada.streams%s
+D a-string.ads		20240108011321 90ac6797 ada.strings%s
+D a-sttebu.ads		20240108011321 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20240108011321 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240108011321 9eaa38c6 ada.tags%s
+D a-textio.ads		20240108011321 34ef47de ada.text_io%s
+D a-tiinio.ads		20240108011321 76699c8f ada.text_io.integer_io%s
+D a-unccon.ads		20240108011321 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20240108011321 9111f9c1 interfaces%s
+D i-cstrea.ads		20240108011321 ffd01b9d interfaces.c_streams%s
+D main.adb		20240401202534 0307e9e6 main%b
+D system.ads		20240108011321 14286b0f system%s
+D s-crtl.ads		20240108011321 beb39b9e system.crtl%s
+D s-exctab.ads		20240108011321 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240108011321 dc5161d4 system.file_control_block%s
+D s-parame.ads		20240108011321 3597fc11 system.parameters%s
+D s-putima.ads		20240108011321 17291fe4 system.put_images%s
+D s-rannum.ads		20240108011321 95815eca system.random_numbers%s
+D s-secsta.ads		20240108011321 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240108011321 df77073e system.soft_links%s
+D s-stache.ads		20240108011321 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240108011321 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240108011321 ccded4e8 system.storage_elements%s
+D s-traent.ads		20240108011321 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240108011321 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20240108011321 d9032363 system.wch_con%s
+G a e
+G c Z b b [main standard 6 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 18|1r6 2r6 3r6 3r37 4r6
+X 2 a-comlin.ads
+36K13*Command_Line 144e21 18|4w10
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[14|46] 18|2w10
+X 6 a-numeri.ads
+16K13*Numerics 35e17 18|3r10 3r41
+X 7 a-nuflra.ads
+41K22*Float_Random 74e30 18|3w19 3r50
+47R9*Generator<25|65R9> 18|87r15
+49F12*Uniformly_Distributed{float}
+51V13*Random{49F12}<25|73p13> 18|284s36
+X 13 a-textio.ads
+58K13*Text_IO 785e16 18|1w10
+X 18 main.adb
+6U11*Main 6b11 474l5 474t9
+9I13 Byte{integer} 23r45 24r54 31r43 42r12 64r19 65r19 72r24 73r12 74r24
+. 75r12 80r24 81r12 185r28 192r28 199r28 284r20
+10I13 Word{integer} 25r51 59r23 60r23 68r36 70r24 276r42 379r28 379r45 420r26
+. 425r17 426r17
+11I13 Address{integer} 23r33
+12I13 Register_Index{integer} 24r35 25r32 61r23 76r24 77r12 78r24 79r12 84r17
+13I13 Bit{integer} 28r55 310r36
+16M10 Mod_Byte 186r32 187r32 193r32 194r32 200r32 201r32 223r29 223r58 241r29
+. 241r58 284r26 284r54 295r34
+17M10 Mod_Word
+18M10 Mod_Address
+19M10 Mod_Register_Index
+20M10 Mod_Bit 311r44
+23A10 Memory_Array(9I13)<integer> 34r17
+24A10 Register_Array(9I13)<integer> 35r17
+25A10 Stack_Array(10I13)<integer> 36r17
+28A10 Display_Array(13I13)<integer><integer> 39r15
+31A10 Font_Array(9I13)<integer> 47r12
+34a5 Memory{23A10} 295r44 383m25 385m25 387m25 392m29 398r46 425r23 426r23
+. 462m9
+35a5 Registers{24A10} 128r20 137r20 146r20 146r36 155m17 162m17 162r34 180m25
+. 180r42 184m25 186r42 187r42 191m25 193r42 194r42 198m25 200r42 201r42 205r30
+. 205r46 206m29 208m29 210m25 210r42 210r58 214r28 214r44 215m29 217m29 219m25
+. 219r42 219r58 223r39 224m29 226m29 228m25 228r42 232r28 232r44 233m29 235m29
+. 237m25 237r42 237r58 241r39 243m29 245m29 247m25 247r42 260r20 260r37 276r48
+. 283m17 301r41 301r60 304m37 306m37 309r37 309r56 313r48 314r48 328r31 333r36
+. 354m25 359m29 366r40 370r40 374r60 379r55 391r40 392r60 397r40 398m29
+36a5 Stack{25A10} 100r40 119m17
+39a5 Display{28A10} 104m21 300r37 308m33 312r44 445r24 445r45 446r28 446r49
+42i5 Keys{9I13} 328r24 333r29 358r28 359r46
+47a5 Font{31A10} 461r14 461r28 462r33
+59i5 Index_Register{10I13} 269m17 295r52 374m25 374r43 378m25 383r33 385r33
+. 387r33 392r37 398r54
+60i5 Program_Counter{10I13} 100m21 112m17 119r42 121m17 129m21 129r40 138m21
+. 138r40 147m21 147r40 261m21 261r40 276m17 329m25 329r44 334m25 334r44 361m29
+. 361r48 425r31 426r31 429m13 429r32 455r23
+61i5 Stack_Pointer{12I13} 100r47 101m21 101r40 119r24 120m17 120r42
+64i5 Delay_Timer{9I13} 354r42 366m25 435r16 436m17 436r32
+65i5 Sound_Timer{9I13} 370m25 440r16 441m17 441r32
+68U15 Execute_Opcode 68b15 68>31 416l9 416t23 432s13
+68i31 Op{10I13} 71r12 73r18 75r18 77r28 79r28 81r18
+70i9 NNN{10I13} 112r36 121r42 269r35 276r36
+72i9 NN{9I13} 128r36 137r37 155r34 162r50 284r64 351r22
+74i9 N{9I13} 98r20 177r22 291r32 326r20
+76i9 X{12I13} 84r35 128r31 137r31 146r31 155r28 162r28 162r45 180r36 184r36
+. 186r53 191r36 193r53 198r36 200r53 205r41 210r36 210r53 214r39 219r36 219r53
+. 223r50 228r36 228r53 232r55 237r36 237r69 241r50 247r36 247r53 260r31 283r28
+. 301r71 309r67 314r59 328r42 333r47 354r36 359r40 366r51 370r51 374r71 379r66
+. 391r51 397r51
+78i9 Y{12I13} 146r47 180r53 187r53 194r53 201r53 205r57 210r69 214r55 219r69
+. 232r39 237r53 260r48 301r52 309r48 313r59
+80i9 First_Nibble{9I13} 90r14
+84i9 BCD_X{12I13} 383r56 384m25 384r56 385r56 386m25 386r56 387r56
+87r9 Gen{7|47R9} 284r44
+291i21 I{integer} 295r69 301r57 309r53 313r64
+292i25 J{integer} 296r37 301r76 309r72 314r64
+294b29 Current_Memory_Bit{boolean} 299r32
+391i29 I{integer} 392r54 392r71
+397i29 I{integer} 398r40 398r71
+419U15 Emulation_Loop 419b15 457l9 457t23 472s5
+420i9 Current_Opcode{10I13} 424m13 432r29
+445i17 Row{integer}
+446i21 Col{integer}
+461i9 I{integer} 462r27 462r39
+
